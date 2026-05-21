@@ -1,0 +1,292 @@
+# ==================== PYTHON / BACKEND ====================
+
+# Virtual environments
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Python cache
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+
+# Distribution / packaging
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# PyInstaller
+backend/*.manifest
+backend/*.spec
+
+# Installer logs
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/.coverage.*
+backend/.cache
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/*.py,cover
+backend/.hypothesis/
+backend/.pytest_cache/
+backend/cover/
+
+# Translations
+backend/*.mo
+backend/*.pot
+
+# Django stuff
+backend/*.log
+backend/local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+backend/instance/
+backend/.webassets-cache
+
+# Scrapy stuff
+backend/.scrapy
+
+# Sphinx documentation
+backend/docs/_build/
+
+# PyBuilder
+backend/.pybuilder/
+backend/target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+backend/profile_default/
+backend/ipython_config.py
+
+# pyenv
+backend/.python-version
+
+# pipenv
+backend/Pipfile.lock
+
+# poetry
+backend/poetry.lock
+
+# pdm
+backend/.pdm.toml
+
+# PEP 582
+backend/__pypackages__/
+
+# Celery
+backend/celerybeat-schedule
+backend/celerybeat.pid
+
+# SageMath parsed files
+backend/*.sage.py
+
+# Environments
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Spyder project settings
+backend/.spyderproject
+backend/.spyproject
+
+# Rope project settings
+backend/.ropeproject
+
+# mkdocs documentation
+backend/site/
+
+# mypy
+backend/.mypy_cache/
+backend/.dmypy.json
+backend/dmypy.json
+
+# Pyre type checker
+backend/.pyre/
+
+# pytype static type analyzer
+backend/.pytype/
+
+# Cython debug symbols
+backend/cython_debug/
+
+# PyCharm
+backend/.idea/
+
+# ==================== NODE / FRONTEND ====================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.yarn/install-state.gz
+
+# Testing
+frontend/coverage/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Production build
+frontend/build/
+
+# Misc
+frontend/.DS_Store
+frontend/*.pem
+
+# Debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Local env files
+frontend/.env*.local
+
+# Vercel
+frontend/.vercel
+
+# TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ==================== DOCKER ====================
+
+# Docker volumes (if committed accidentally)
+volumes/
+postgres_data/
+qdrant_data/
+redis_data/
+
+# ==================== REPOSITORIES ====================
+
+# Cloned repositories (temporary storage)
+/tmp/repos/
+backend/tmp/repos/
+backend/repos/
+repos/
+
+# ==================== LOGS ====================
+
+*.log
+logs/
+log/
+
+# ==================== OS FILES ====================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==================== IDE / EDITORS ====================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ==================== INFRA ====================
+
+# Nginx
+nginx/*.conf.d/
+
+# SSL certificates (never commit real certs!)
+*.pem
+*.key
+*.crt
+*.csr
+ssl/
+certs/
+
+# Terraform (if used later)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# ==================== AI / MODELS ====================
+
+# Downloaded models (if any local)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# ==================== TEMP ====================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# ==================== PROJECT SPECIFIC ====================
+
+# Atlas specific
+atlas-data/
+.vector_cache/
+
+# Qdrant local storage (dev)
+qdrant_storage/
